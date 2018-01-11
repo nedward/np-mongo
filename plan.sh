@@ -1,8 +1,8 @@
-pkg_origin=echohack
+pkg_origin=nedward
 pkg_name=np-mongodb
 pkg_version=3.2.9
 pkg_description="Mongodb for National-Parks app"
-pkg_maintainer="echohack"
+pkg_maintainer="Ned Harris"
 pkg_license=('AGPL-3.0')
 pkg_deps=(core/mongodb core/mongo-tools)
 pkg_svc_run="mongod --config $pkg_svc_config_path/mongod.conf"
